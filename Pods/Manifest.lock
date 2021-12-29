@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyImagePicker (1.0.0)
+
+DEPENDENCIES:
+  - SwiftyImagePicker (from `.`)
+
+EXTERNAL SOURCES:
+  SwiftyImagePicker:
+    :path: "."
+
+SPEC CHECKSUMS:
+  SwiftyImagePicker: 814b3bf72057c23726b2b6b2eea9593f2c7b31df
+
+PODFILE CHECKSUM: 52089f46ff9584572eed3cf82037cddac2597a29
+
+COCOAPODS: 1.11.2

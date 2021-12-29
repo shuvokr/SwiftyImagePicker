@@ -1,0 +1,6 @@
+framework module SwiftyImagePicker {
+  umbrella header "SwiftyImagePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

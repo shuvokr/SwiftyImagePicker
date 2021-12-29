@@ -19,7 +19,8 @@ class ViewController: UIViewController {
         let imagePik = SwiftyImagePicker()
         imagePik.pickImage(self) { image in
             DispatchQueue.main.async {
-                self.pickedImageis.image = image
+                // picked image : process your picked image here
+                self.pickedImageView.image = image
             }
         }
     }

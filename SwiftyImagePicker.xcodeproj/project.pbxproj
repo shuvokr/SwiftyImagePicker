@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A219EDD7F8B91F75573AFA7 /* Pods_SwiftyImagePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B562DC0C58329607F8989B24 /* Pods_SwiftyImagePicker.framework */; };
 		84518AE7277CBA78009207EC /* SwiftyImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 84518AE6277CBA78009207EC /* SwiftyImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		84518AEE277CBAF4009207EC /* SwiftyImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84518AED277CBAF4009207EC /* SwiftyImagePicker.swift */; };
 		84518AF6277CBC67009207EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84518AF5277CBC67009207EC /* AppDelegate.swift */; };
@@ -15,9 +16,13 @@
 		84518AFD277CBC67009207EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84518AFB277CBC67009207EC /* Main.storyboard */; };
 		84518AFF277CBC6A009207EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84518AFE277CBC6A009207EC /* Assets.xcassets */; };
 		84518B02277CBC6A009207EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84518B00277CBC6A009207EC /* LaunchScreen.storyboard */; };
+		BED8D534925F8AD1B55992CC /* Pods_SwiftyImagePickerExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53435CF452395346376296B4 /* Pods_SwiftyImagePickerExample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		52B0A040AC48BAF769D2A59E /* Pods-SwiftyImagePicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyImagePicker.release.xcconfig"; path = "Target Support Files/Pods-SwiftyImagePicker/Pods-SwiftyImagePicker.release.xcconfig"; sourceTree = "<group>"; };
+		53435CF452395346376296B4 /* Pods_SwiftyImagePickerExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyImagePickerExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76203930657DE169B190487C /* Pods-SwiftyImagePickerExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyImagePickerExample.release.xcconfig"; path = "Target Support Files/Pods-SwiftyImagePickerExample/Pods-SwiftyImagePickerExample.release.xcconfig"; sourceTree = "<group>"; };
 		84518AE3277CBA78009207EC /* SwiftyImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84518AE6277CBA78009207EC /* SwiftyImagePicker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftyImagePicker.h; sourceTree = "<group>"; };
 		84518AED277CBAF4009207EC /* SwiftyImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyImagePicker.swift; sourceTree = "<group>"; };
@@ -29,6 +34,9 @@
 		84518AFE277CBC6A009207EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84518B01277CBC6A009207EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84518B03277CBC6A009207EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AB1CBA8BA176CE0B1C9E11C /* Pods-SwiftyImagePickerExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyImagePickerExample.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyImagePickerExample/Pods-SwiftyImagePickerExample.debug.xcconfig"; sourceTree = "<group>"; };
+		B562DC0C58329607F8989B24 /* Pods_SwiftyImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftyImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C64E90E9BA6B469DE7D145E4 /* Pods-SwiftyImagePicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftyImagePicker.debug.xcconfig"; path = "Target Support Files/Pods-SwiftyImagePicker/Pods-SwiftyImagePicker.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A219EDD7F8B91F75573AFA7 /* Pods_SwiftyImagePicker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED8D534925F8AD1B55992CC /* Pods_SwiftyImagePickerExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +65,8 @@
 				84518AE5277CBA78009207EC /* SwiftyImagePicker */,
 				84518AF4277CBC67009207EC /* SwiftyImagePickerExample */,
 				84518AE4277CBA78009207EC /* Products */,
+				8B80D4ECEBAD0B3C66040821 /* Pods */,
+				C8D80CA05C30AC209F5EA99E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,6 +102,26 @@
 			path = SwiftyImagePickerExample;
 			sourceTree = "<group>";
 		};
+		8B80D4ECEBAD0B3C66040821 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C64E90E9BA6B469DE7D145E4 /* Pods-SwiftyImagePicker.debug.xcconfig */,
+				52B0A040AC48BAF769D2A59E /* Pods-SwiftyImagePicker.release.xcconfig */,
+				8AB1CBA8BA176CE0B1C9E11C /* Pods-SwiftyImagePickerExample.debug.xcconfig */,
+				76203930657DE169B190487C /* Pods-SwiftyImagePickerExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8D80CA05C30AC209F5EA99E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B562DC0C58329607F8989B24 /* Pods_SwiftyImagePicker.framework */,
+				53435CF452395346376296B4 /* Pods_SwiftyImagePickerExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -108,6 +140,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84518AEA277CBA78009207EC /* Build configuration list for PBXNativeTarget "SwiftyImagePicker" */;
 			buildPhases = (
+				C2B30153552FEAA5CB9AA040 /* [CP] Check Pods Manifest.lock */,
 				84518ADE277CBA78009207EC /* Headers */,
 				84518ADF277CBA78009207EC /* Sources */,
 				84518AE0277CBA78009207EC /* Frameworks */,
@@ -126,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84518B04277CBC6A009207EC /* Build configuration list for PBXNativeTarget "SwiftyImagePickerExample" */;
 			buildPhases = (
+				7618C6FED32D06822CA19681 /* [CP] Check Pods Manifest.lock */,
 				84518AEF277CBC67009207EC /* Sources */,
 				84518AF0277CBC67009207EC /* Frameworks */,
 				84518AF1277CBC67009207EC /* Resources */,
+				F9C963DABF52EAB93A1C1172 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -196,6 +231,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7618C6FED32D06822CA19681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyImagePickerExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2B30153552FEAA5CB9AA040 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftyImagePicker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9C963DABF52EAB93A1C1172 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyImagePickerExample/Pods-SwiftyImagePickerExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftyImagePickerExample/Pods-SwiftyImagePickerExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftyImagePickerExample/Pods-SwiftyImagePickerExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84518ADF277CBA78009207EC /* Sources */ = {
@@ -362,6 +461,7 @@
 		};
 		84518AEB277CBA78009207EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C64E90E9BA6B469DE7D145E4 /* Pods-SwiftyImagePicker.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,6 +485,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = monkey.SwiftyImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -394,6 +496,7 @@
 		};
 		84518AEC277CBA78009207EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52B0A040AC48BAF769D2A59E /* Pods-SwiftyImagePicker.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -417,6 +520,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = monkey.SwiftyImagePicker;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -425,6 +530,7 @@
 		};
 		84518B05277CBC6A009207EC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB1CBA8BA176CE0B1C9E11C /* Pods-SwiftyImagePickerExample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -453,6 +559,7 @@
 		};
 		84518B06277CBC6A009207EC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76203930657DE169B190487C /* Pods-SwiftyImagePickerExample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
