@@ -15,6 +15,10 @@
 > 
 > This iOS swift SDK can pick image to your iOS swift project through gallery & camara.
 
+
+https://user-images.githubusercontent.com/12962997/147691062-686496d1-bdd6-4cd0-b635-175b0634b376.mov
+
+
 ## Features
 > Pick image from Gallery.
 > 
