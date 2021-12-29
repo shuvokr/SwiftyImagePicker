@@ -17,10 +17,12 @@
 
 ## Features
 > Pick image from Gallery.
+> 
 > Pick image from Camara.
 
 ## Requirements
 > Swift
+> 
 > iOS 9.0+
 
 ## Installation
