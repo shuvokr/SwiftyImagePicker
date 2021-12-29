@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**[PROJECT PHILOSOPHY](https://github.com/shuvokr/SwiftyImagePicker) • 
+**[SwiftyImagePicker](https://github.com/shuvokr/SwiftyImagePicker) • 
 [LICENSE](https://github.com/shuvokr/SwiftyImagePicker/blob/master/LICENSE)**
 
 </div>
