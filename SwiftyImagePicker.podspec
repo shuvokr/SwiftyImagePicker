@@ -11,7 +11,7 @@ Pod::Spec.new do |spec|
   spec.name          = "SwiftyImagePicker"
   spec.version       = "1.0.0"
   spec.summary       = "iOS SDK for pick image through gallery or camera, including example app"
-  spec.homepage      = "https://github.com/shuvokr"
+  spec.homepage      = "https://cocoapods.org/pods/SwiftyImagePicker"
   spec.license       = { :type => "MIT", :file => "LICENSE" }
   spec.author        = { "looktou" => "shuvosksk@gmail.com" }
   spec.platform      = :ios, "9.0"
