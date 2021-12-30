@@ -38,9 +38,10 @@ pod 'SwiftyImagePicker'
 > pod install
 > 
 > Open SwiftyImagePicker.xcworkspace
+> 
 > Select terget: SwiftyImagePickerExample
 
-<img width="851" alt="SwiftyImagePicker Sample Video" src="https://user-images.githubusercontent.com/12962997/147737735-ffe1ae13-8c81-4d50-9fe6-d64eedf998cb.png">
+<img width="851" alt="SwiftyImagePicker Sample Video.mov" src="https://user-images.githubusercontent.com/12962997/147737735-ffe1ae13-8c81-4d50-9fe6-d64eedf998cb.png">
 
 
 > Update your info.plis by
