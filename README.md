@@ -35,6 +35,13 @@ pod 'SwiftyImagePicker'
 ```
 
 ## How To Use
+> Update your info.plis by
+>
+> KEY   : Privacy - Camera Usage Description
+>
+> Value : Use to camara access for take a selfi.
+
+
 ```
 import UIKit
 import SwiftyImagePicker
