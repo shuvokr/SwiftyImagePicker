@@ -35,6 +35,12 @@ pod 'SwiftyImagePicker'
 ```
 
 ## How To Use
+> pod install
+> 
+> Open SwiftyImagePicker.xcworkspace
+> Select terget: SwiftyImagePickerExample
+![Uploading Screen Shot 2021-12-30 at 3.08.19 PM.png…]()
+
 > Update your info.plis by
 >
 > KEY   : NSCameraUsageDescription
